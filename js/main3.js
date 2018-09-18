@@ -7,7 +7,6 @@ function copiarAlPortapapeles(id_elemento) {
   document.body.appendChild(aux);
   aux.select();
   evaluar=id_elemento;
-	alert(evaluar);
   document.execCommand("copy");
   document.body.removeChild(aux);
 }
@@ -730,13 +729,10 @@ tiene el valor indicado por el input,
 			puntoB = ediPAR.position;
 			break;
 
-			case 'tnpar2':
+			case 'btnpar2':
 			puntoB = ediPAR2.position;
 			break;
 
-			case 'Parqueos de Edificio EWCC':
-			puntoB = ediPAR2.position;
-			break;
 			
 			case 'btnsan':
 			puntoB = ediS.position;
