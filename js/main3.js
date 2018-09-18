@@ -16,7 +16,7 @@ function copiarAlPortapapeles(id_elemento) {
 
 
 function initMap(){
-	var puntoB = document.getElementById('puntoB').value;
+	var puntoB;
 	
 	const ubicacion = new Localizacion(()=>{
 	const milugar = {lat : ubicacion.latitude, lng : ubicacion.longitude}
