@@ -6,7 +6,7 @@ function copiarAlPortapapeles(id_elemento) {
   aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
   document.body.appendChild(aux);
   aux.select();
-  evaluar=id_elemento;
+  evaluar=id_elemento;	
   document.execCommand("copy");
   document.body.removeChild(aux);
 }
@@ -15,7 +15,7 @@ function copiarAlPortapapeles(id_elemento) {
 
 
 function initMap(){
-	var puntoB;
+	var puntoB;	
 	
 	const ubicacion = new Localizacion(()=>{
 	const milugar = {lat : ubicacion.latitude, lng : ubicacion.longitude}
@@ -732,7 +732,6 @@ tiene el valor indicado por el input,
 			case 'btnpar2':
 			puntoB = ediPAR2.position;
 			break;
-
 			
 			case 'btnsan':
 			puntoB = ediS.position;
