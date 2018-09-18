@@ -641,17 +641,20 @@ tiene el valor indicado por el input,
  asi sera su valor en coordenadas para 
  determinar el lugar de llegada*/
 		switch(evaluar){
-			case 'btnP':
-				puntoB = plaza.position;
-			break;
 
 			case 'btnPI':
 				puntoB= pinacoteca.position;
 			break;
-
+			
 			case 'btnBI':
 			puntoB = biblioteca.position;
+			break;		
+				
+			case 'btnP':
+				puntoB = plaza.position;
 			break;
+
+
 
 			case 'btnA':
 			puntoB = ediA.position;
@@ -673,7 +676,7 @@ tiene el valor indicado por el input,
 			puntoB = magB.position;
 			break;
 
-			case 'btnM':
+			case 'btnMC':
 			puntoB = magC.position;
 			break;
 
