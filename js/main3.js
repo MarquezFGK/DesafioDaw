@@ -6,8 +6,7 @@ function copiarAlPortapapeles(id_elemento) {
   aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
   document.body.appendChild(aux);
   aux.select();
-  evaluar=id_elemento;
- 	alert(evaluar);
+  evaluar=id_elemento;	
   document.execCommand("copy");
   document.body.removeChild(aux);
 }
